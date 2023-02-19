@@ -1,0 +1,18 @@
+{
+    "name": "codigo_del_desafio",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "dev": "parcel serve ./src/index.html",
+        "build": "parcel build ./src/index.html --dist-dir build",
+        "deploy": "gh-pages -d dist"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^18.13.0",
+        "gh-pages": "^5.0.0",
+        "parcel": "^2.8.3"
+    }
+}
