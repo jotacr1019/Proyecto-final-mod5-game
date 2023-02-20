@@ -166,6 +166,7 @@
 .custom-plays,
 .custom-plays-reverse {
     align-self: center;
+    border: 2px solid;
 }
 
 .container-choose {
