@@ -47,7 +47,7 @@ function initRouter (container: Element | null){
             }
         }
     }
-    if(location.pathname === "/"){
+    if(location.pathname === "/" || location.host.includes("github.io")){
         goTo("/inicio")
     } else {
         handleRoute(location.pathname);
