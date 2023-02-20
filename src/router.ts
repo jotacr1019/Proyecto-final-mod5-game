@@ -37,7 +37,7 @@ function initRouter (container: Element | null){
             }
         ];
         for(const r of routes){
-            if(r.path.test(route)){
+            if(r.path.test(newRoute)){
                 
                 const el = r.component({ goTo: goTo });
                 if(container?.firstChild){
